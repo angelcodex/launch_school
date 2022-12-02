@@ -1,0 +1,14 @@
+# With the code below, x will print 3
+x = 0
+3.times do
+  x += 1
+end
+puts x
+
+# With the code below we will get an error as y is not a defined variable outside of the block scope
+y = 0
+3.times do
+  y += 1
+  a = y
+end
+puts a

@@ -1,0 +1,3 @@
+# Exception Handling, is when you give your program an "out".  If it encounters an error, exception handling via a rescue key word, will allow the program to continue onto the next line of code.  Failure to have a rescue, will mean that the program does not move on from the line where it encounter the error, and stops working.
+
+# exception handling changes the flow of control, without exiting the program entirely.
